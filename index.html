@@ -14,9 +14,9 @@
 
 <body>
   <div class="container">
-    <header class="site-header">
+    <header class="site-header" role="banner">
       <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
+      <nav class="main-nav" role="navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -25,13 +25,13 @@
         </ul>
       </nav>
       <a href="#maincontents">Skip to Main Content &darr;</a>
-      <img src="https://placekitten.com/1200/900" class="banner" alt="cat image">
+      <img src="https://placekitten.com/1200/900" class="banner" alt="cat image" role="img">
     </header>
-    <main class="main-content" id="maincontents">
+    <main class="main-content" id="maincontents" role="main">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <section class="owner">
+      <section class="owner" role="region">
         <h1>Meet the owner</h1>
         <ul>
           <li>Name: John Doe</li>
@@ -47,9 +47,9 @@
           B3T 0L0
         </p>
       </section>
-      <section class="contact-section">
+      <section class="contact-section" role="region">
         <h1>Contact Us</h1>
-        <form action="thanks.html" method="post">
+        <form action="thanks.html" method="post" role="search">
           <label for="fullname">Full Name</label>
           <input id="fullname" type="text" placeholder="Full Name">
           
@@ -60,13 +60,13 @@
           <input id="subject" type="text" placeholder="Subject">
           
           <label for="message">Your Message</label>
-          <textarea id="message"></textarea>
+          <textarea id="message" role="textbox"></textarea>
           
-          <button type="submit">Send</button>
+          <button type="submit" role="button">Send</button>
         </form>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
